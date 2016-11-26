@@ -1,0 +1,34 @@
+{
+    "name": "boilerplate-phaser-es2016",
+    "version": "1.0.0",
+    "description": "Example game based on Phaser.js. Use ECMAScript 2016 syntax.",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "watch": "webpack --progress -w",
+        "build": "webpack --profile -p",
+        "clear": "rm -rf node_modules/ npm-debug.log public/dist/ typings/",
+        "count": "find app -name '*.js' | xargs wc -l | sort",
+        "typings": "typings install"
+    },
+    "dependencies": {
+        "babel-core": "^6.18.2",
+        "babel-loader": "^6.2.8",
+        "babel-preset-es2015": "^6.18.0",
+        "babel-preset-es2016": "^6.16.0",
+        "babel-preset-stage-0": "^6.16.0",
+        "phaser": "^2.6.2",
+        "script-loader": "^0.7.0",
+        "super-event-emitter": "^4.1.4",
+        "typings": "^2.0.0",
+        "webpack": "^2.1.0-beta"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piecioshka/boilerplate-phaser-es2016"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "globalDevDependencies": {
+        "phaser": "github:photonstorm/phaser/v2/typescript/typings.json",
+        "super-event-emitter": "github:piecioshka/super-event-emitter/typings.json"
+    }
+}
