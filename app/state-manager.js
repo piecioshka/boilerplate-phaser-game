@@ -1,4 +1,4 @@
-import STATE_EVENTS from './contants/state-events';
+import STATE_EVENTS from './constants/state-events';
 
 import { BootstrapState } from './states/bootstrap-state';
 import { LoadingState } from './states/loading-state';

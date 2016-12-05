@@ -1,6 +1,6 @@
-import GAME from '../contants/game';
-import PLAYER from '../contants/player';
-import STATE_EVENTS from '../contants/state-events';
+import GAME from '../constants/game';
+import PLAYER from '../constants/player';
+import STATE_EVENTS from '../constants/state-events';
 import { Player } from '../models/player';
 
 export class ExampleState extends Phaser.State {

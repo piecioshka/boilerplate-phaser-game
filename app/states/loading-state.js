@@ -1,4 +1,4 @@
-import STATE_EVENTS from '../contants/state-events';
+import STATE_EVENTS from '../constants/state-events';
 
 export class LoadingState extends Phaser.State {
     preload() {
