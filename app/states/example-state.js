@@ -19,7 +19,11 @@ export class ExampleState extends Phaser.State {
         this.layer.resizeWorld();
         // this.layer.debug = true;
 
-        this.game.player = new Player(this.game, PLAYER.DEFAULT_X, PLAYER.DEFAULT_Y);
+        this.game.player = new Player(
+            this.game,
+            PLAYER.DEFAULT_X,
+            PLAYER.DEFAULT_Y
+        );
         this.game.trigger(STATE_EVENTS.EXAMPLE_COMPLETED);
     }
 
