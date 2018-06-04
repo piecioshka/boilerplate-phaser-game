@@ -5,17 +5,17 @@ ECMAScript 2016 syntax.
 
 ## Features &#x2714;
 
-* [x] Phaser v2.6.2
-* [x] Webpack v2.2.1
-* [x] Babel (ECMAScript 2015 + ECMAScript 2016 + Stage 0 of ECMAScript 2017)
-* [x] [super-event-emitter](http://github.com/piecioshka/super-event-emitter)
+* :white_check_mark: Phaser v2.6.2
+* :white_check_mark: Webpack v2.2.1
+* :white_check_mark: Babel (ECMAScript 2015 + ECMAScript 2016 + Stage 0 of ECMAScript 2017)
+* :white_check_mark: [super-event-emitter](http://github.com/piecioshka/super-event-emitter)
  v4.1.4 as event management
-* [x] Typings (Phaser, super-event-emitter) for syntax highlighters
-* [x] Task to count line of code (LOC)
-* [x] Simple structure for app: `constants/`, `models/`, `states/`
-* [x] Example map (build in Tiled)
-* [x] Static directory: `public/`
-* [x] Maximum 80 characters per line in each file! 
+* :white_check_mark: Typings (Phaser, super-event-emitter) for syntax highlighters
+* :white_check_mark: Task to count line of code (LOC)
+* :white_check_mark: Simple structure for app: `constants/`, `models/`, `states/`
+* :white_check_mark: Example map (build in Tiled)
+* :white_check_mark: Static directory: `public/`
+* :white_check_mark: Maximum 80 characters per line in each file! 
 
 ![](./screenshots.png)
 
