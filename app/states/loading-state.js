@@ -2,7 +2,7 @@ import STATE_EVENTS from '../constants/state-events';
 
 export class LoadingState extends Phaser.State {
     preload() {
-        let loader = this.add.image(
+        const loader = this.add.image(
             this.world.centerX,
             this.world.centerY,
             'loader'

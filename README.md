@@ -1,6 +1,6 @@
 # boilerplate-phaser-es2016
 
-> :fork_and_knife: Example game based on [Phaser.js](http://phaser.io). Use 
+:fork_and_knife: Example game based on [Phaser.js](http://phaser.io). Use
 ECMAScript 2016 syntax.
 
 ## Features &#x2714;
@@ -15,29 +15,29 @@ ECMAScript 2016 syntax.
 * :white_check_mark: Simple structure for app: `constants/`, `models/`, `states/`
 * :white_check_mark: Example map (build in Tiled)
 * :white_check_mark: Static directory: `public/`
-* :white_check_mark: Maximum 80 characters per line in each file! 
+* :white_check_mark: Maximum 80 characters per line in each file!
 
-![](./screenshots.png)
+![Demo](./screenshots.png)
 
 ## Steps to launch the project
 
-```
-$ npm install       # install dependencies
-$ npm run build     # build distribution files in public/dist/
+```bash
+npm install       # install dependencies
+npm run build     # build distribution files in public/dist/
 ```
 
 ## Development
 
-```
-$ npm run typings   # support syntax highlighters
-$ npm run watch     # run Webpack to listen of file modifications
+```bash
+npm run typings   # support syntax highlighters
+npm run watch     # run Webpack to listen of file modifications
 ```
 
 ## Misc
 
-```
-$ npm run clear     # remove all generated files
-$ npm run count     # count LOC (line of code)
+```bash
+npm run clear     # remove all generated files
+npm run count     # count LOC (line of code)
 ```
 
 ## Troubleshooting
