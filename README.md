@@ -3,7 +3,7 @@
 :fork_and_knife: Example game based on [Phaser.js](http://phaser.io). Use
 ECMAScript 2016 syntax.
 
-## Features &#x2714;
+## Features
 
 * :white_check_mark: Phaser v2.6.2
 * :white_check_mark: Webpack v2.2.1
@@ -38,26 +38,6 @@ npm run watch     # run Webpack to listen of file modifications
 ```bash
 npm run clear     # remove all generated files
 npm run count     # count LOC (line of code)
-```
-
-## Troubleshooting
-
-### `Uncaught TypeError: Cannot read property 'cache' of undefined`
-
-Player sprite does not have reference to main game object.
-
-```javascript
-new Player();           // ERROR
-new Player(this.game);  // OK
-```
-
-### `Uncaught TypeError: Failed to execute 'drawImage' on 'CanvasRenderingContext2D': The provided value is not of type '(HTMLImageElement or HTMLVideoElement or HTMLCanvasElement or ImageBitmap)'`
-
-List of used tileset in map should be defined after map setup.
-
-```javascript
-this.map = this.add.tilemap('example-map');
-this.map.addTilesetImage('street');     // MUST BE ADDED
 ```
 
 ## License
