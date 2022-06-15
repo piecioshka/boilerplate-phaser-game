@@ -1,7 +1,8 @@
 # boilerplate-phaser-es2016
 
-:fork_and_knife: Example game based on [Phaser.js](http://phaser.io). Use
-ECMAScript 2016 syntax.
+:fork_and_knife: Starter of [Phaser.js](http://phaser.io) (simple game).
+
+_Use ECMAScript 2016 syntax._
 
 ## Features
 
