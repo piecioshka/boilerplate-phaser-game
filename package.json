@@ -1,5 +1,6 @@
 {
-    "name": "boilerplate-phaser-es2016",
+    "private": true,
+    "name": "boilerplate-phaser-game",
     "version": "1.0.1",
     "description": "Example game based on Phaser.js. Use ECMAScript 2016 syntax.",
     "license": "MIT",
@@ -12,7 +13,6 @@
         "watch": "webpack --progress -w",
         "build": "webpack --profile -p",
         "clear": "rm -rf node_modules/ npm-debug.log public/dist/ typings/",
-        "count": "find app -name '*.js' | xargs wc -l | sort",
         "typings": "typings install"
     },
     "dependencies": {
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/piecioshka/boilerplate-phaser-es2016"
+        "url": "https://github.com/piecioshka/boilerplate-phaser-game"
     }
 }

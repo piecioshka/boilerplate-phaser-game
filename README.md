@@ -1,4 +1,4 @@
-# boilerplate-phaser-es2016
+# boilerplate-phaser-game
 
 :fork_and_knife: Starter of [Phaser.js](http://phaser.io) (simple game).
 
