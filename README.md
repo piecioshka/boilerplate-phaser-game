@@ -4,6 +4,10 @@
 
 _Use ECMAScript 2016 syntax._
 
+## Preview 🎉
+
+<https://piecioshka.github.io/boilerplate-phaser-game/>
+
 ## Features
 
 * :white_check_mark: Phaser v2.6.2
