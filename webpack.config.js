@@ -1,5 +1,7 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = {
     entry: {
         game: './app/main',
@@ -8,7 +10,7 @@ module.exports = {
 
     output: {
         filename: '[name].bundle.js',
-        path: './public/dist'
+        path: path.join(__dirname, 'public', 'dist')
     },
 
     // devtool: '#source-map',
