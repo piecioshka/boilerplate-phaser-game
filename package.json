@@ -10,6 +10,7 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
+        "start": "http-server -c-1 public/",
         "watch": "webpack --progress -w",
         "build": "webpack --profile -p",
         "clear": "rm -rf node_modules/ npm-debug.log public/dist/ typings/",
@@ -25,6 +26,7 @@
         "babel-preset-es2015": "^6.22.0",
         "babel-preset-es2016": "^6.22.0",
         "babel-preset-stage-0": "^6.22.0",
+        "http-server": "^14.1.1",
         "script-loader": "^0.7.0",
         "typings": "^2.1.0",
         "webpack": "^2.2.1"
